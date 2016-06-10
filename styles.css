@@ -42,3 +42,12 @@ a:link {
 a:visited {
     color: green;
 }
+
+@media screen and (max-width: 500px) { 
+          h1 { font-size: .9em; }  
+          .Section-header { font-size: .8em; }
+          p { font-size: .7em; }  
+          ul { font-size: .7em; }  
+          table { font-size: .7em; }  
+          img { width: 70%; height: 70%; }  
+}
